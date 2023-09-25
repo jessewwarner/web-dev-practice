@@ -1,14 +1,14 @@
 body {
     border: 2px solid red;
+    height: 200vh;
 }
-p{
+/* p{
     padding: 500px 10px;
-}
+} */
 .container {
     display: flex;
     height: 50vh;
     width: 200vw;
-    position: relative;
     border: 2px solid black;
 }
 
@@ -22,9 +22,9 @@ div {
 .class-1 {
     background-color: blue;
     border: 5px solid purple;
-    position: sticky;
-    left: 50px;
-    top: 20px;
+    position: fixed;
+    top: auto;
+    left: 250px;
 }
 
 .class-2 {
