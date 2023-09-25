@@ -1,3 +1,8 @@
+:root {
+    --test: 25px;
+    --secondTest: 50px;
+}
+
 body {
     border: 2px solid red;
     height: 200vh;
@@ -23,8 +28,8 @@ div {
     background-color: blue;
     border: 5px solid purple;
     position: fixed;
-    top: auto;
-    left: 250px;
+    top: var(--secondTest);
+    left: 20px;
 }
 
 .class-2 {
