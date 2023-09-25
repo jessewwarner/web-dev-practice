@@ -26,4 +26,6 @@ div {
 .class-3 {
     border: 5px solid purple;
     background-color: blue;
+    position: absolute;
+    top: 40px; left: 40px;
 }
