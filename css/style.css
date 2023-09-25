@@ -1,3 +1,9 @@
+.container {
+    display: flex;
+    height: 200vh;
+    width: 100vw;
+}
+
 div {
     width: 100px;
     height: 100px;
@@ -13,6 +19,8 @@ div {
 .class-2 {
     background-color: red;
     border: 5px solid orange;
+    position: relative;
+    top: 25px;
 }
 
 .class-3 {
