@@ -27,9 +27,6 @@ div {
 .class-1 {
     background-color: blue;
     border: 5px solid purple;
-    position: fixed;
-    top: var(--secondTest);
-    left: 20px;
 }
 
 .class-2 {

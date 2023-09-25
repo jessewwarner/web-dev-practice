@@ -7,18 +7,31 @@
     <title>Document</title>
 </head>
 <body>
-    <select name="fashion">
-        <optgroup label="Clothing">
-          <option value="t_shirt">T-Shirts</option>
-          <option value="sweater">Sweaters</option>
-          <option value="coats">Coats</option>
-        </optgroup>
-        <optgroup label="Foot Wear">
-          <option value="sneakers">Sneakers</option>
-          <option value="boots">Boots</option>
-          <option value="sandals">Sandals</option>
-        </optgroup>
-      </select>
+    <fieldset>
+        <legend>Contact Details</legend>
+      
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+      
+        <label for="phone_number">Phone Number:</label>
+        <input type="tel" id="phone_number" name="phone_number">
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </fieldset>
+      
+      <fieldset>
+        <legend>Delivery Details</legend>
+      
+        <label for="street_address">Street Address:</label>
+        <input type="text" id="street_address" name="street_address">
+      
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+      
+        <label for="zip_code">Zip Code:</label>
+        <input type="text" id="zip_code" name="zip_code">
+      </fieldset>
     <div class="container">
         <div class="class-1"></div>
         <div class="class-2"></div>
