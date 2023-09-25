@@ -1,0 +1,21 @@
+div {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.class-1 {
+    background-color: blue;
+    border: 5px solid purple;
+}
+
+.class-2 {
+    background-color: red;
+    border: 5px solid orange;
+}
+
+.class-3 {
+    border: 5px solid purple;
+    background-color: blue;
+}
