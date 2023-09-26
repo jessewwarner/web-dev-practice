@@ -7,25 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <div>
-            <label for="choose">Would you prefer a banana or cherry?</label>
-            <input 
-                type="text"
-                name="i-like" 
-                id="choose" 
-                required 
-                minlength="6" 
-                maxlength="6">
-        </div>
-        <div>
-            <label for="number">How many would you like?</label>
-            <input type="number" name="amount" id="number" value="1" min="1" max="10">
-        </div>
-        <div>
-            <button>Submit</button>
-        </div>
-    </form>
+    <form novalidate>
+        <p>
+          <label for="mail">
+            <span>Please enter an email address:</span>
+            <input type="email" id="mail" name="mail" required minlength="8" />
+            <span class="error" aria-live="polite"></span>
+          </label>
+        </p>
+        <button>Submit</button>
+      </form>
     <script src="js/script.js"></script>
 </body>
 </html>
