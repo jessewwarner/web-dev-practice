@@ -1,7 +1,11 @@
 input:invalid {
     border: 2px dashed red;
-  }
-  
-  input:valid {
+}
+
+input:invalid:required {
+    background-image: linear-gradient(to right, aqua, blue);
+}
+
+input:valid {
     border: 2px solid black;
-  }
+}
