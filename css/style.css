@@ -11,8 +11,8 @@ img {
     padding: 4px;
     border: 1px solid grey;
     background-color: skyblue;
-    grid-template-rows: 150px 150px;
-    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: repeat(2, min(200px, 50%));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
   
   .grid-item {
