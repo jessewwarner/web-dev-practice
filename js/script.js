@@ -15,5 +15,7 @@ player1 = new Player("Jesse", 'X');
 player2 = new Player("Steven", "O");
 test1 = new Test("Testing");
 
+console.log(player1.valueOf());
+
 test1.sayHello();
 player1.sayHello();
