@@ -1,16 +1,19 @@
-class Book {
-    constructor(title, author, pages, read) {
-        this.title = title;
-        this.author = author;
-        this.pages = pages;
-        this.read = read;
-        this.info = function () {
-            return `${this.title} by ${this.author}, ${this.pages}, ${this.read ? "read" : "not read yet"}.`;
-        };
-    }
+function Player(name, marker) {
+    this.name = name;
+    this.marker = marker;
 }
 
-theHobbit = new Book("The Hobbit", "J.R.R Tolkien", 295, false);
-console.log(theHobbit.info());
-theHobbit.read = true;
-console.log(theHobbit.info());
+function Test(q) {
+    this.msg = q;
+}
+
+Object.prototype.sayHello = function(){
+    console.log("Hello, I'm a player!");
+}
+
+player1 = new Player("Jesse", 'X');
+player2 = new Player("Steven", "O");
+test1 = new Test("Testing");
+
+test1.sayHello();
+player1.sayHello();
